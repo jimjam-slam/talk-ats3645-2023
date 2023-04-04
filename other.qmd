@@ -1,0 +1,566 @@
+
+## {.text-lime-cyan}
+
+::::: {.columns style="text-align:center;margin-top:50px;"}
+
+:::: {.column width="50%" style="margin-top:50px"}
+::: {.r-stack}
+
+
+![](images/mcccrh-graphic.png){.fragment .fade-in-then-semi-out fragment-index=2 style="transform:rotate(1.5deg);" fig-alt="A graphic showing increasing spring temperatures over time."}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3 style="transform:rotate(-1.5deg);" fig-alt="An interactive map showing how much electricity countries generate each yar and how much comes from renewable sources."}
+```{=html}
+<iframe allow="fullscreen" style="border: none; width: 600px; height: 575px;" src="https://360info-electricitytransition.pages.dev/map"></iframe>
+```
+:::
+:::
+::::
+
+:::: {.column width="50%"  style="margin-top:25px"}
+::: {.fragment fragment-index=1}
+I used to be a climate + health researcher
+
+
+:::
+::: {.fragment fragment-index=2}
+•
+
+Worked with **[CLEX](https://climateextremes.org.au)** and **[MCCCRH](https://monash.edu/mcccrh)** on climate change communication
+:::
+::: {.fragment fragment-index=3}
+•
+
+<!-- Now a data journalist with **[360info.org](https://360info.org)!** -->
+
+Now I'm a data journalist with
+
+[![](images/360logo.svg){style="width:50%;"}](https://360info.org)
+:::
+::::
+
+:::::
+
+
+::: {.notes}
+When I was a climate + health researcher, I made graphics like this:
+
+Then I worked at the Monash Climate Change Communication Research Hub, and I made graphics like this:
+
+Now I work for 360info, an open access newswire supported by Monash. Now I make graphics like this:
+:::
+
+## {.center}
+
+:::: {.columns}
+
+:::{.column width="55%"}
+[![](images/360logo.svg){style="width:50%;"}](https://360info.org)
+
+**[360info](https://360info.org)** is an **open access** global information agency that tackles the world’s biggest challenges and offers practical solutions.
+
+::: {.fragment fragment-index=1}
+[**github.com/360-info**](https://github.com/360-info)
+
+Keen to collab with research groups and media outlets!
+:::
+:::
+
+:::{.column .fragment width="40%" fragment-index=1}
+![Screenshot of 360info's GitHub account](./images/360info-github.png)
+:::
+::::
+
+::: {.notes}
+I've been working at 360info for about a year
+
+We're a research-driven newswire, and we give everything away for free under Creative Commons so that all journalists can benefit from it
+
+Part of my role is creating our visuals. (click)
+
+That means I do everything: coding, design and analysis.
+
+As our team grows, I'm also working with our infrastructure partners and looking for ways to make it easier for reporters and editors to use our charts
+:::
+
+
+
+::: {style="margin-top:50px"}
+### Slides
+
+[**https://numbats2022.talks.jamesgoldie.dev**](https://numbats2022.talks.jamesgoldie.dev)
+
+[(Code for these slides is at [**https://github.com/jimjam-slam/talk-numbats-2022**](https://github.com/jimjam-slam/talk-numbats-2022))]{style="font-size:1.2rem"}
+:::
+
+::: {.notes}
+So I've spent a bit of time this year talking about my experience with broadcast climate graphics.
+:::
+
+# [Short]{.hl .hl-gold} and [long]{.hl .hl-gold} reads {.text-wash-black background="linear-gradient(45deg, #f37335, #fdc830)"}
+
+## TV graphics: the short read {.text-orange-gold .center style="text-align:center"}
+
+::: {.notes}
+TV graphics generally have to work within a fixed amount of time.
+
+If you're really lucky, that time could be 30 or 40 seconds
+
+If you're less lucky, it could be 15 seconds.
+
+Or 15 seconds that turns into 7 seconds right before you go to air.
+
+So you can see why the graphics I made after I graduated didn't have seven line captions on them.
+
+I've become really interested in the difference between "HERE IS A QUICK MESSAGE" and "Here's a long, considered message to digest slowly..."
+:::
+
+## TV graphcs: the long read {.text-orange-gold}
+
+::: {.notes}
+That said, TV graphics don't _always_ have a fixed amount of view time.
+
+They can be republished online or replayed
+:::
+
+## {.text-orange-gold .center} 
+
++-----------------------+----------------------------+----------------------+
+|                       | Long view bad ❌           | Long view better ☑️   |
++=======================+============================+======================+
+| **Short view bad ❌** | Bad chart                  | [Requires context or |
+|                       |                            | time]{.fragment}     |
++-----------------------+----------------------------+----------------------+
+| **Short view good ☑️** | [Misleading/reductive/     | [🥳]{.fragment}      |
++                       | oversimplified]{.fragment} |                      |
++-----------------------+----------------------------+----------------------+
+
+:::{.notes}
+
+This is obviously a super reductive way to talk about how long we look at chart - there are ways to tackle the long view in certain contexts, like building a graphic up piece by piece, or introducing concepts earlier in a story.
+
+But I think it's helpful to think about short and long views because it helps us figure out how much simplification is necessary.
+:::
+
+## Layered complexity: climate stripes {.text-orange-gold}
+
+![Climate stripes in their original form](/images/climate-stripes.png)
+
+:::{.notes}
+I'm also not suggesting that every graphic should avail itself of hidden meaning if you stare at it long enough.
+
+Some graphics are designed for a specific purpose. The climate stripes are a good example of this:
+
+They tell a really simple message that really only depends on a basic awareness of the idea of climate change
+
+But if you need to talk about _anything_ else, they can be too simple.
+:::
+
+## Layered complexity: climate stripes {.text-orange-gold}
+
+:::{.panel-tabset style="transform: scale(0.75); transform-origin: top;"}
+
+## Stripes
+
+![Climate stripes in their original form](/images/climate-stripes.png)
+
+## Stripes with labels
+
+![Climate stripes with X axis labels](/images/climate-stripes-labelled.png)
+
+## Bars
+
+![Climate stripes as a barchart](/images/climate-stripes-bars.png)
+
+## Bars with labels
+
+![Climate stripes as a labelled barchart](/images/climate-stripes-bars-labelled.png)
+
+:::
+
+:::{.notes}
+In fact, the climate stripes website has variations you can download that add
+more typical chart elements, like axes, or even turning them into a conventional
+barchart.
+
+Even this last chart doesn't explicitly say what the measurement is.
+:::
+
+## Example {.text-orange-gold}
+
+::: {.r-stack}
+![An outline of Australia. A good chunk of eastern Australia is shaded in orange, while a path in central-western Australia is shaded in light blue.](./images/australia-map-example.jpg){.fragment .fade-in style="width:500px"}
+
+[❌]{.fragment .fade-in style="font-size:35rem"}
+:::
+
+:::{.notes}
+I had an interactive bit planned here, but we don't have time! 😅
+:::
+
+# [[Temperature]{.hl .hl-red} jargon]{style="color: white"} { background="linear-gradient(45deg, #ed213a, #93291e)"}
+
+::: {.notes}
+I'm going to retread a bit of what Amanda has talked about this morning looking
+at text, because text is a big part of clear communication, especially on TV!
+
+Plus, a good chunk of physical climate is the patterns we see across time and space
+
+That means we have a lot of jargon for talking about spatial and temporal scales
+:::
+
+## Relating climate to weather {.text-red-brown .center style="text-align: center"}
+
+:::: {.columns}
+::: {.column width="50%"}
+**Jargon**
+
+[daily maxima]{style="color:darkred"}
+
+[maximum daily maximum]{style="color:darkred"}
+
+[area-averaged temperature]{style="color:darkred"}
+:::
+::: {.column width="50%"}
+**(Possible) alternative**
+
+[daytime temperatures]{style="color:darkred"}
+
+[hottest day]{style="color:darkred"}
+
+[temperature across Australia]{style="color:darkred"}
+:::
+::::
+
+::: {.notes}
+
+"Climate is what we expect; weather is what we get"
+
+This is a tricky dance: in some cases we can get away with an apparent loss of precision in our words, because of the context.
+
+It's also something that relies on the assumption that audiences have been trained by TV weather segments
+
+(Could this be less effective in the future?)
+
+"Daytime temp" != "Maximum temperature", but audiences have been trained to relate the two.
+
+(So long as the difference isn't important to this application!)
+
+The other interesting thing is that people's intuition starts to drift - not just with complexity in the measure, but with the time and especially space scales
+
+When we talk about daily temperature in a city, people link it to their experience
+
+If we talk about a hot day across Australia, that's a little harder to grasp!
+
+Once you get to the point of a country or the globe having a hot or cold year, it starts to be more of an intellectual exercise
+:::
+
+## Using less jargon {.text-red-brown .center}
+
+![A satellite map, featuring reported temperature trends in different parts of South Australia](./images/mcccrh-obs.jpg)
+
+## Using less jargon {.text-red-brown .center}
+
+![Graham Creed talking about how changes in Australian winter temperature relate to levels of global warming](./images/mcccrh-projections.jpg)
+
+::: {.notes}
+That use of language can particularly pay off when you start thinking about the future climate.
+
+Last year we were able to collaborate with the National Environment Science Program to get climate projections on screen, which was pretty rare up until the COP talks in Glasgow last year.
+
+In this case we talked about how winter days have been changing across the country to try to establish that intuitive experience of weather
+
+Then we followed it up by relating global warming levels to seasonal projections of winter temperatures in Aus.
+
+There's a bit of spread in the modelling here, and so we decided to just go with ranges in text rather than try to do a visualisation with an error bar on it.
+
+We generally try to steer away from the word "uncertainty"
+
+Downside is the possibility that this might seem like a uniform distribution, but I honestly think this is pretty low down the list of worries.
+:::
+
+
+# [[Rainfall]{.hl .hl-blue} projections<br>and uncertainty]{style="color: white;"} {background="linear-gradient(45deg, #00aadd, #66dd00)"}
+
+::: {.notes}
+All of this is fine when we're talking about heat, because the relationship between global warming and extreme heat is really clear.
+
+It would be really hard to find a definition of heatwaves that isn't getting worse in most parts of the world.
+
+Rainfall is another beast:
+
+- rainfall patterns are changing in different ways around different parts of the world;
+- changes are very dependent on how you define extreme rainfall;
+- climate models less confidence in future rainfall changes than temperature
+
+So future rainfall stories can be challenging to tell quickly.
+:::
+
+## Perth is [drying out]{.hl} in the winter {.center .text-lime-cyan}
+
+::::{.columns}
+
+::: {.column width="40%"}
+**Cool season total rainfall (mm)**
+
+:::{.callout-tip}
+## 
+
+Perth has **lost over 25%** of its rainfall in the cooler months (April to October).
+
+These months are critical for the growing season.
+:::
+
+:::
+
+:::{.column width="60%"}
+
+```{ojs}
+//| label: perth-rainfall-obs
+//| classes: rainfall-plot
+
+import {addTooltips} from "@mkfreeman/plot-tooltip"
+
+perth = FileAttachment("data/perth-rainfall-obs.csv")
+  .csv({ typed: true })
+
+// convert year to date
+perthData = perth.map(d => ({ ...d,
+  startDate: new Date(d.year + "-01-01"),
+  date: new Date(d.year + "-07-01"),
+  endDate: new Date(d.year + "-12-31")
+}))
+
+// calculate man rainfallx
+rainfallArray = perth.map(d => d.total)
+meanRainfall = 
+  rainfallArray.reduce((a, b) => a + b, 0) / rainfallArray.length
+
+perthChart = addTooltips(
+  Plot.plot({
+    grid: true,
+    marks: [
+      Plot.rectY(perthData,
+        {
+          x1: "startDate",
+          x2: "endDate",
+          y: "total",
+          // fill: "total"
+          fill: "#7ceaf2",
+          title: d => `${d.year}\n${d.total} mm`
+        }),
+      Plot.linearRegressionY(perthData, { x: "date", y: "total" })
+    ]
+  }),
+  {
+    fill: "#2478bd",
+    stroke: "#2478bd"
+  })
+```
+
+:::
+
+::::
+
+::: {.notes}
+But rainfall stories are important!
+
+Perth—all of SW Aus, in fact—has a rainfall problem.
+
+Specifically a winter rainfall problem.
+
+In the cooler months between April and October, Perth has lost a quarter of its rainfall over the last 120 years.
+
+This is one of the clearest signals on total rainfall in the world
+
+And it's a place where climate models agree we'll see more declines
+
+So how do we tell that story?
+:::
+
+## 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Messages {.text-lime-cyan}
+
+::: {.incremental}
+* Winter rainfall going down
+* Bad for agriculture
+* We expect the decline to continue
+* Less warming = less decline
+:::
+
+:::
+
+::: {.column width="50%"}
+
+### Challenges {.text-lime-cyan}
+
+::: {.incremental}
+* This decline is clearly in the **cool season** (esp. winter)
+* We have seasonal rainfall projection **figures**, but...
+* Only annual **maps** (not seasonal)
+:::
+
+:::
+
+::::
+
+##
+
+:::: {.columns}
+::: {.column width="70%"}
+![](./images/rainfall-primer.png){style="width:100%"}
+:::
+::: {.column width="30%"}
+Establish critical time for agriculture
+
+Only mention of seasonality is here 😔
+:::
+::::
+
+## 
+
+:::: {.columns}
+::: {.column width="70%"}
+![](./images/rainfall-obs.png){style="width:100%"}
+:::
+::: {.column width="30%"}
+Establish observed decline
+
+(These are annual figures - note smaller trend)
+:::
+::::
+
+## 
+
+:::: {.columns}
+::: {.column width="70%"}
+![](./images/rainfall-map-1p5deg.png){style="width:100%"}
+:::
+::: {.column width="30%"}
+Continue to future projections
+:::
+::::
+
+## 
+
+:::: {.columns}
+::: {.column width="70%"}
+![](./images/rainfall-map-3deg.png){style="width:100%"}
+:::
+::: {.column width="30%"}
+Note that legend is the secondary way of establishing colour scale
+
+  - [(Good if it gets republished online but unlikely to be read quickly, especially at this size)]{style="font-size:smaller"}
+
+Annotation establishes range and headline
+:::
+::::
+
+::: {.notes}
+Like most maps, this has no discussion of uncertainty.
+
+As we know, that's a common problem with raster maps: you get a less of extra complexity
+with very little cognitive overhead with 2 or 3 spatial dimensions...
+
+... but you're also kind of in a corner after that.
+:::
+
+## Visual alternatives for uncertainty {.center .text-lime-cyan}
+
+Tooltips?
+
+  - Great for an interactive... not so much for broadcast 😔
+
+(Di/tri)chromatic maps
+
+  - Too esoteric for TV audiences 🤔
+  - Probably violate contrast guidelines as well
+
+::: {.notes}
+If this was an interactive we could have a tooltip that gives more detail, and I believe Tony is talking about interactives next!
+
+You could do a dichromatic or trichromatic map, where you try to encode several sets of information into your fill colour.
+
+But nobody knows what they are, and they're really hard to read.
+:::
+
+## Non-visual alternatives for uncertainty {.center .text-lime-cyan}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Choosing stories where we can be clear
+
+  - (But recognising that stories featuring uncertainty are still important and looking for the best way to tell them)
+
+Highlighting sources of uncertainty _where_ they're relevant, instead of putting all the fine print on all the time 
+:::
+
+::: {.column width="50%"}
+:::
+
+::::
+
+::: {.notes}
+In this case we chose to highlight on a case where the models agreed on the sign of the change, and we tabled discussion of uncertainty.
+
+You might disagree with that, and I'm not sure I 100% agree either!
+
+Def not advocating for leaving uncertainty or nuance by the wayside.
+
+Also not advocating p-hacking! (Climate models are not statistical models!)
+
+But in this case case we also thought as carefully about _what_ to visualise as _how_ to visualise it.
+
+Doing a clear but scoped story might be better than doing an ambitious but unclear one.
+
+The other possibility is highlighting sources of uncertainty where and when they're relevant.
+
+My old supervisor at CLEX used to say that he preferred to communicate uncertainty holistically
+
+Instead of focusing on one or key metrics, he advocated for having that discussion in a fuller way
+
+That's really hard with large audiences, but I think it can be done in some cases if approached thoughtfully
+
+For my next project, I'm working with climate projections again. Although it's an interactive and we can have ranges, I'm hoping to highlight key sources of uncertainty for interested users **where they are important** with an additional tooltip.
+:::
+
+# Conclusions {.text-black-white background="linear-gradient(45deg, #fff, #666)"}
+
+## Graphics should be digestible [quickly...]{.hl}<br>[but still useful if read for longer]{style="font-size: 2.5rem"} {.center style="text-align:center;"}
+
+## Use [language]{.hl} and [context]{.hl} to reduce cognitive load {.center style="text-align:center;"}
+
+## You have [many tools]{.hl} for conveying complexity...<br>[and not just visual ones!]{style="font-size: 2.5rem"}  {.center style="text-align:center;"}
+
+## {.center}
+
+::::{.columns}
+:::{.column width="50%"}
+<h2>Thanks for listening!</h2>
+
+Questions?
+:::
+:::{.column width="50%" style="text-align:right"}
+**Me**
+
+[<i class="bi bi-twitter"></i> **jimjam-slam**](https://twitter.com/jimjam-slam)
+
+[<i class="bi bi-mastodon"></i> **jimjamslam**](https://aus.social/jimjamslam)
+
+:::{style="margin-top:40px"}
+**360info**
+:::
+
+[<i class="bi bi-twitter"></i> **360info_global**](https://twitter.com/360info_global)
+
+[<i class="bi bi-globe2"></i> **360info.org**](https://360info.org)
+
+[<i class="bi bi-github"></i> **github.com/360-info**](https://github.com/360-info)
+:::
+::::

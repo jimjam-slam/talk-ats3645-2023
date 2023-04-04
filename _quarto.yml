@@ -1,0 +1,8 @@
+project:
+  type: website
+  output-dir: out
+  resources:
+    - images
+    - fonts
+    - data
+    

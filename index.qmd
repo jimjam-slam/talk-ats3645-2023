@@ -1,0 +1,320 @@
+---
+format:
+  revealjs: 
+    theme: [default, style.scss]
+    highlight-style: github
+    width: 1400
+    css:
+      - https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css
+---
+
+## {.center}
+
+<h1 class="text-indigo-pink">Climate change<h1>
+<h2>and Solutions Journalism</h2>
+
+::: {style="margin-top:50px"}
+### JAMES GOLDIE {.text-orange-gold}
+
+Data and Digital Storytelling Lead, 360info
+
+![](images/360logo.svg){style="height:100px; margin:-15px"}
+:::
+
+# Hi! {.text-wash-white background="linear-gradient(45deg, #00aadd, #66dd00)"}
+
+::: {.notes}
+Hi, I'm James
+
+I'm James, I'm the D&DSL at 360info here at Monash
+
+I'm pretty new to journalism: I used to be a climate change researcher
+Today, I'm talking about how I made that leap,
+
+The work I've done since I left research
+
+And about how we use solutions journalism at 360info
+:::
+
+## {.text-lime-cyan}
+
+::: {style="font-size: 60%"}
+| 2003                 | 2004                       | 2005                                            | 2006                                                    | 2007                                            | 2008 | 2009                                                        |
+| -------------------- | -------------------------- | ----------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------- | ---- | ----------------------------------------------------------- |
+| ![Terminator Gene](images/terminator-gene.jpeg){style="height:125px"} | ![The Day After Tomorrow](images/day-after-tomorrow.jpg){style="height:125px"} |                                                 | ![An Inconvenient Truth](images/an-inconvenient-truth.jpg){style="height:125px" .fragment fragment-index=2} | ![IPCC Reports](images/ipcc-report.png){style="height:125px" .fragment fragment-index=3} |      | [Nov: finished undergrad]{.fragment fragment-index=4}       |
+|                      |                            |                                                 | [Feb: started undergrad]{.fragment fragment-index=2}    |                                                 |      |                                                             |
+|                      |                            | [Hurricane Katrina]{.fragment fragment-index=1} |                                                         |                                                 |      | [Feb: Black Saturday bushfires]{.fragment fragment-index=4} |
+:::
+
+::: {.notes}
+These days climate change is in our face pretty much all the time
+
+When I finished high school and started uni at Monash, that wasn't the case
+
+I wanted to make videogames in high school, but I was already watching and reading a lot of climate change fiction
+
+(I _really_ love disaster movies)
+
+Terminator Gene is a pretty pulpy adventure novel, but the end of it has a heist that happens in New Orleans as a hurricane is bearing down on it.
+
+There's a lot of discussion of how a hurricane would affect New Orleans, which sits below sea level.
+
+When I read it in 2003, it got me really interested in how storms form.
+
+When my uni preferences were due in 2005, Hurricane Katrina happened, and it all became very real.
+
+So I ended up studying the weather at uni.
+
+Climate change became a bigger and bigger part of the media during my degree
+
+And as I finished, The Black Saturday bushfires undeniably brought climate change to our doorsteps.
+:::
+
+## After undergrad {.text-lime-cyan}
+
+* I took a few years off:
+  - dealt blackjack and poker by day
+  - tried to do animation by night
+  - wanted to make videos about climate change
+* Got a kick up the bum and did my postgrad on the **health effects of heatwaves**
+  - I was just there to learn enough to do videos, but I tricked myself into doing a PhD
+  - I spent more time **making charts and maps**, though...
+
+# Making [broadcast graphics]{.hl .hl-gold}<br>[at [MCCCRH]{.hl .hl-gold}]{style="font-size:80%"} {.text-wash-black background="linear-gradient(45deg, #f37335, #fdc830)"}
+
+
+## Making graphics for the public {.text-orange-gold}
+
+::::{.columns}
+:::{.column width="50%"}
+![](images/thesis-graphic.png){fig-alt="A figure from my thesis." style="height:600px"}
+:::
+:::{.column width="50%"}
+![](images/mcccrh-obs.jpg){.fragment fragment-index=1 fig-alt="A graphic showing increasing spring temperatures over time."}
+:::
+::::
+
+::: {.notes}
+When I did my postgrad, I was making graphics for other academics—specifically the people would evaluate my thesis.
+
+You still had to be clear in your communication, because they weren't necessarily experts in the thing you were doing.
+
+But you could at least trust that they would read your thesis from start to finish—so if you built things up step by step, and explained each element of the graphic, it would come together.
+
+In broadcast television, you have none of that luxury. At the Hub, one of our big programs was helping out TV weather presenters
+
+- Very little time
+- No audience context except the weather
+- But very trusted
+:::
+
+# Working at [360info]{.hl .hl-blue} now {.text-wash-white background="linear-gradient(45deg, #00aadd, #66dd00)"}
+
+::: {.notes}
+First a quick bit about 360info and how we work
+:::
+
+## 
+
+![Screenshot of the 360info.org front page](images/360info-site.png)
+
+::: {.notes}
+:::
+
+## {background-iframe="https://360info.org/next-generation-chatbots-explained" background-interactive=true}
+
+::: {.notes}
+We're a newswire: we supply stories directly to other news outlets
+
+Differences:
+
+- Everything is Creative Commons: anybody can use it (even just a quote or a paragraph) for free, so long as they attribute us
+- Our stories are usually written by researchers (but we edit them to conform to a newswire style)
+- We do a bunch of stories around a single topic, like AI chatbots
+- Here, our editor has written a "framing article" to introduce the topic. 
+:::
+
+##
+
+::::{.columns}
+:::{.column width="50%"}
+![Screenshot of a 360info article that has been picked up](images/360info-pickup.png)
+:::
+:::{.column width="50%"}
+![](images/360logo.svg){style="height:100px; margin:-15px"}
+
+Stories are republished by other media outlets for free under **Creative Commons**
+:::
+::::
+
+## {background-iframe="https://360info-armstrade.pages.dev/importexportmap?edshare" background-interactive=true}
+
+::: {.notes}
+As D&DSL, I lead all of our data-driven editorial efforts. We're a small team, so that's a pretty wide pitch!
+
+The core of my job is:
+
+- doing data analysis, and 
+- making charts, maps and interactives
+
+This example is from last year, when a major arms treaty conference was on.
+
+We got data from the Stockholm Peace Research Institute, SIPRI.
+
+SIPRI normally only lets people use 10% of their database without permission. So we sought permission. Then we downloaded each country individually, and we had to match each record up across all the files so that we transaction was a row in our spreadsheet.
+:::
+
+## {background-iframe="https://360info-electricitytransition.pages.dev/map/?edshare" background-interactive=true}
+
+::: {.notes}
+Here's another example that we did last year for the climate talks in Egypt.
+
+Since the last set of IPCC reports last year, there's been a real shift in rhetoric, both in Australia and abroad
+
+Although progress can always be undone, there does appear to be a consensus around the 1.5 and 2 degree warming levels, and of the idea of Net Zero by 2050 (at least as goals - the policies still need a lot of work!).
+
+A lot of the media reporting has shifted to how we're getting to 2050.
+
+So we found data from the International Renewable Energy Agency that shows how much electricity countries produce, and how much of it is renewable.
+
+There was a bit of analysis involved here to get the numbers in the shape we wanted. The data was actually provided broken down by individual source, as well as a few other factors.
+
+We had to combine it, or _aggregate_ it, to get the total energy and the percentage that was renewable, in order to show both on the map.
+:::
+
+##
+
+::::{.columns}
+::: {.column width="40%"}
+```{=html}
+<div class="flourish-embed flourish-chart" data-src="visualisation/13010999"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+:::
+::: {.column width="10%"}
+:::
+::: {.column width="40%"}
+```{=html}
+<div class="flourish-embed flourish-chart" data-src="visualisation/13034789"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+:::
+::::
+
+::: {.notes}
+We did a few ambitious visuals like this last year, but I'm the only person who can make them!
+
+We often get tables and datasets from researchers at the last minute, when they submit their story drafts, that would make for a goof bar chart or map.
+
+We want to do more of these, but making them bespoke is a big waste of time for such a small visual.
+
+So I'm training our editors to use [Flourish](https://flourish.studio), which let us make visuals like these really quickly.
+
+This frees me up to spend more of my time making the more ambitious ones that require programming.
+
+These visuals were part of a recent story on extreme heat and renters. We used survey results of renters, data on the average energy star ratings of homes, and future climate projections.
+:::
+
+## 
+
+![Screenshot of the 360info GitHub profile](images/360info-github.png)
+
+::: {.notes}
+
+But we're an open newswire, and we want people to use as much or as little of our work as they like.
+
+So we also have things like our GitHub, which is where people can come to get the datasets featured in our visuals.
+
+GitHub can be a bit intimidating for non-tech people, so we're also working on a website just for our visuals.
+
+Beyond that, I also:
+
+- Work with the editorial lead and our multimedia producer on video strategy
+- Working out with our infrastructure and media partners to make sure that people can actually use our visuals
+- Looking for folks to collaborate on data projects with
+
+So there's a bit to keep me busy!
+:::
+
+# [Solutions journalism]{.hl .hl-emerald}{.text-wash-white background="linear-gradient(45deg, #01c868, #aec35e)"}
+
+## What's solutions journalism? {.text-pear-green}
+
+::::{.columns style="font-size: 75%"}
+:::{.column width="22.5%"}
+1. **RESPONSE:** Focuses on a response to a social problem — and on how that response has worked, or why it hasn’t
+:::
+:::{.column width="2.5%"}
+:::
+:::{.column width="22.5%"}
+2. **INSIGHT:** Shows what can be learned from a response and why it matters to a newsroom’s audience
+:::
+:::{.column width="2.5%"}
+:::
+:::{.column width="22.5%"}
+3. **EVIDENCE:** Provides data or qualitative results that indicate effectiveness (or lack thereof)
+:::
+:::{.column width="2.5%"}
+:::
+:::{.column width="22.5%"}
+4. **LIMITATIONS:** Places responses in context; doesn’t shy away from revealing shortcomings
+:::
+::::
+
+[From the [Solutions Journalism Network](solutionsjournalism.org)]{style="font-size: 75%; color: grey; text-transform: uppercase;"}
+
+::: {.notes}
+The idea of solutions journalism isn't just to give people good news—that's reductive.
+
+It's to think about the role of journalism. Why is it important to inform people?
+
+Being informed allows people to act — whether that's changing a light bulb, changing their vote or just choosing to look for more information
+
+But you can only act if you see options. A bad news story with no options at the end doesn't help people to act.
+:::
+
+## Solutions journalism and climate {.text-pear-green}
+
+::: {.notes}
+I probably don't need to tell you that climate change is big and exhausting to read about
+
+When I began speaking more about climate change as a researcher, I thought a lot about my colleagues in medicine
+
+Doctors and nurses often have to give people really bad news. 
+
+But often, that bad news is a warning and a call to action.
+
+A smoker with emphysema might need to accept that they've done irreversible damage to their body. There may be things that they just won't be able to do any more.
+
+At the same time, stopping smoking could be the difference between life and death for them.
+
+This is the balance that solutions journalism has to make.
+
+How we get people to understand the scale of what we've lost, while motivating them to consider their choices in the future?
+:::
+
+## {.center}
+
+::::{.columns}
+:::{.column width="50%"}
+<h2>Thanks for listening!</h2>
+
+Questions?
+:::
+:::{.column width="50%" style="text-align:right"}
+**Me**
+
+[<i class="bi bi-twitter"></i> **@jimjam-slam**](https://twitter.com/jimjam-slam)
+
+[<i class="bi bi-mastodon"></i> **@jimjamslam@aus.social**](https://aus.social/jimjamslam)
+
+:::{style="margin-top:40px"}
+**360info**
+:::
+
+[<i class="bi bi-twitter"></i> **360info_global**](https://twitter.com/360info_global)
+
+[<i class="bi bi-globe2"></i> **360info.org**](https://360info.org)
+
+[<i class="bi bi-github"></i> **github.com/360-info**](https://github.com/360-info)
+:::
+::::
+
